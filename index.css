@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.lets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.da{
+    border-radius: 90px;
+    padding: 8px 20px;
+    background-color: rgb(226,49,49) ;
+    color: white;
+    border: none;
+}
+.da a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.container input {
+    border: none;
+    outline: none;
+    background-color: #f0f0f8;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 15px;
+  }
+.container .pic, .fa-bars, input{
+    display: none;
+}
+.da a:hover{
+    text-decoration: none;
+}
+.ba{
+    border-radius: 50px;
+    padding: 12px 15px;
+    border: none;
+}
+.ba:hover{
+    border: 2px solid black;
+}
+
+@media (max-width: 576px) {
+    .me{
+        display: none;
+    }
+    .da{
+        display: none;
+    }
+    .me li{
+        display: none;
+    }
+    input{
+        display: flex;
+    }
+}
+@media (max-width: 1120px) {
+    .container .picture, .da, .ba{
+        display: none;
+    }
+    .container .pic {
+        display: flex;
+    } 
+    .container input {
+        display: block;
+    } 
+    .container .fa-bars {
+        display: flex;
+    } 
+       
+}
+  
+
+.me a:hover{
+    text-decoration: underline;
+    color: rgb(226,49,49);
+}
+.charis{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+    padding: 100px 10px;
+}
+
+.charis h1{
+    font-size: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.charis p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.charis button{
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background-color: rgb(226,49,49);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.charis button:hover{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(226,49,49);
+}
+.charis a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 2560px) {
+    .charis{
+        width: 60%;
+    }
+    
+}
+@media (max-width: 1440px) {
+    .charis{
+        width: 85%;
+    }  
+}
+@media (max-width: 1024px) {
+    .charis{
+        width: 90%;
+    }
+    .charis h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 960px) {
+    .charis{
+        display: block;
+        width: 80%;
+    } 
+    
+}
+@media (max-width: 425px) {
+    .charis{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .charis h1{
+        font-size: 40px;
+    } 
+}
+@media (max-width: 513px) {
+    .navbar{
+        background-color: firebrick;
+    } 
+}
+.secondpage{
+    width: 88%;
+    margin: 40px auto;
+
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 50px 0px;
+    width: 88%;
+}
+.first p{
+    color: #67676E;
+}
+
+.sechild h3{
+    color: #212529;
+    font-size: 20px;
+}
+.sechild a{
+    color: #67676E;
+    font-size: 20px;
+}
+.sechild a:hover{
+    color: rgb(226,49,49);
+    text-decoration: none;
+}
+.fir a{
+    color: rgb(226,49,49);
+}
+.fir a:hover{
+    color: rgb(226,49,49);
+    text-decoration: none;
+}
+@media (max-width: 2560px) {
+    .secondpage{
+        width: 60%;
+    }
+    
+}
+@media (max-width: 1440px) {
+    .secondpage{
+        width: 85%;
+    } 
+}
+@media (max-width: 879px) {
+    .second{
+        display: block;
+        margin: 10px 0;
+    } 
+}
+    @media (max-width: 768px) {
+        .secondpage{
+            width: 88%;
+        } 
+        .second{
+            width: 100%;
+        }
+        .sechild{
+            
+        } 
+    }
+.thirdpage{
+    width: 88%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+.thirdpage h3{
+    font-size: 18px;
+    color: #67676E;
+    letter-spacing: 3px;
+}
+.thirdpage h2{
+    color: #29292C;
+    font-size: 43px;
+    font-weight: 700;
+}
+.thirdpage p{
+    color: #494A51;
+    font-size: 20px;
+}
+.thirdpage a{
+    color: rgb(226,49,49);
+    font-size: 20px;
+}
+.thirdpage a:hover{
+    text-decoration: none;
+}
+@media (max-width: 2560px) {
+    .thirdpage{
+        width: 60%;
+    }
+}
+@media (max-width: 1440px) {
+    .thirdpage{
+        width: 85%;
+    }
+}
+@media (max-width: 900px) {
+    .thirdpage img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .thirdpage{
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .thirdpage{
+        width: 88%;
+    } 
+}    
+.fourthpage{
+    width: 88%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.fourthpage h3{
+    font-size: 18px;
+    color: #67676E;
+    letter-spacing: 3px;
+}
+.fourthpage h2{
+    color: #29292C;
+    font-size: 43px;
+    font-weight: 700;
+}
+.fourthpage p{
+    color: #494A51;
+    font-size: 19px;
+    margin: 30px 0;
+}
+.fourthpage a{
+    color: rgb(226,49,49);
+    font-size: 20px;
+}
+.fourthpage a:hover{
+    text-decoration: none;
+}
+@media (max-width: 2560px) {
+    .fourthpage{
+        width: 60%;
+    }
+}
+@media (max-width: 1440px) {
+    .fourthpage{
+        width: 85%;
+    }
+}
+@media (max-width: 800px) {
+    .fourthpage{
+        display: block;
+    }
+    @media (max-width: 768px) {
+        .fourthpage{
+            width: 88%;
+        } 
+    }    
+}
+.fifthpage{
+    width: 88%;
+    margin: 100px auto;
+}
+.fifthpage h3{
+    font-size: 18px;
+    color: #67676E;
+    letter-spacing: 3px;
+}
+.fifthpage h2{
+    color: #29292C;
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.fifg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 8px;
+    row-gap: 10px;
+    margin: 40px 0;
+}
+.fifg p{
+    font-size: 19px;
+    gap: 20px;
+    margin: 20px 0;
+}
+.fifg a{
+    color: rgb(226,49,49);
+    font-size: 20px;
+}
+.fifg a:hover{
+    text-decoration: none;
+}
+@media (max-width: 2560px) {
+    .fifthpage{
+        width: 60%;
+    }
+}
+@media (max-width: 1440px) {
+    .fifthpage{
+        width: 85%;
+    }
+}
+@media (max-width: 768px) {
+    .fifthpage{
+        width: 88%;
+    } 
+}    
+@media (max-width: 575px) {
+    .fifg{
+        display: block;
+    }
+}
+/* .sixpage{
+    width: auto;
+    margin: 100px auto;
+    background-color: rgb(240,240,248);
+    padding: 100px 10px;
+}
+.six{
+    width: 88%;
+    margin: 0 auto;
+    font-size: 26px;
+    color:  #29292C;
+}
+.ig{
+   display: flex;
+   justify-content: space-between;
+    width: 88%;
+    margin: 40px auto;
+}
+.ig a{
+    color: rgb(226,49,49);
+    font-size: 18px;
+}
+.ig a:hover{
+    text-decoration: none;
+} */
+/* .sqi{
+    background-color: rgb(240,240,248);
+    width: 100px;
+    border: 1px solid red;
+    min-width: 30%;
+}
+.six{
+    width: 58%;
+    margin: 0 0px;
+    font-size: 22px;
+    
+}
+.sixth{
+    width: 88%;
+    margin: 0px 0px;
+}
+.sixth a{
+    color: rgb(226,49,49);
+    font-size: 19px;
+}
+.sixth a:hover{
+    text-decoration: none;
+}
+.sqi{
+    
+    justify-content: space-between;
+    width: 88%;
+    margin: 0px auto;
+    
+}
+
+@media (max-width: 2560px) {
+    .sqi{
+        /* width: 1200px;
+        margin: 0 400px; */
+        align-items: center;
+    }
+}
+@media (max-width: 1440px) {
+    .sqi{
+        width: 88%;
+        text-align: ;
+    }
+    .six{
+        width: 1200px;
+    }
+}
+@media (max-width: 1024px) {
+    .sqi{
+        width: 1200px;
+        margin: 0 40px;
+        align-items: center;
+    }
+    .six{
+        width: 1200px;
+    }
+}
+@media (max-width: 786px) {
+     .sqi{
+        width: 88%;
+        
+    }
+    .six .sqi{
+        display: block;
+        
+    }
+    .sixth{
+        
+        
+        
+    }
+} */
+.seventh{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 100px auto;
+    gap: 100px;
+}
+.seventh h3{
+    font-size: 18px;
+    color: #67676E;
+    letter-spacing: 3px;
+}
+.seventh h2{
+    color: #29292C;
+    font-size: 40px;
+    font-weight: 700;
+}
+.seventh a{
+    color: rgb(226,49,49);
+    font-size: 20px;
+}
+.seventh a:hover{
+    text-decoration: none;
+}
+@media (max-width: 2560px) {
+    .seventh{
+        width: 60%;
+    }
+}
+@media (max-width: 1440px) {
+    .seventh{
+        width: 85%;
+    }
+}
+@media (max-width: 800px) {
+    .seventh{
+        display: block;
+    }
+}
+    }
+
+
+   
+
+
+
+
